@@ -1,22 +1,21 @@
 # Program to Create a Long Multiline String
 
-# Example 1: Using triple quotes
+# Solution 1 Using triple quotes
 
-my_string = '''The only way to
+print('''The only way to
 learn to program is
-by writing code.'''
+by writing code.''')
 
-print(my_string)
 
-# Example 2: Using parentheses and a single/double quotes
 
-my_string = ("The only way to \n"
-        	"learn to program is \n"
-        	"by writing code.")
+# Solution 2  Using \n
 
-print(my_string)
 
-# Example 3: Using \
+print("The only way to \nlearn to program is \nby writing code.")
+
+
+
+# Solution 3 Using \
 
 my_string = "The only way to \n" \
         	"learn to program is \n" \
